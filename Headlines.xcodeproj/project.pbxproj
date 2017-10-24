@@ -23,6 +23,8 @@
 		34368AF51F9A8C29001246D4 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34368AF41F9A8C29001246D4 /* Extensions.swift */; };
 		34368AF81F9A9C44001246D4 /* BindingTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34368AF71F9A9C44001246D4 /* BindingTextField.swift */; };
 		34368AFE1F9AE7AE001246D4 /* DynamicTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34368AFD1F9AE7AE001246D4 /* DynamicTypes.swift */; };
+		349F9FF91F9F67A0009E1885 /* ChangePasswordTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349F9FF81F9F67A0009E1885 /* ChangePasswordTableViewController.swift */; };
+		349F9FFB1F9F68C7009E1885 /* ChangePasswordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349F9FFA1F9F68C7009E1885 /* ChangePasswordViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +46,8 @@
 		34368AF41F9A8C29001246D4 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		34368AF71F9A9C44001246D4 /* BindingTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingTextField.swift; sourceTree = "<group>"; };
 		34368AFD1F9AE7AE001246D4 /* DynamicTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicTypes.swift; sourceTree = "<group>"; };
+		349F9FF81F9F67A0009E1885 /* ChangePasswordTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordTableViewController.swift; sourceTree = "<group>"; };
+		349F9FFA1F9F68C7009E1885 /* ChangePasswordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,7 @@
 				34368ADE1F9A69FD001246D4 /* ArticleListViewModel.swift */,
 				34368AEB1F9A741C001246D4 /* ArticleDetailViewModel.swift */,
 				34368AF11F9A8792001246D4 /* AddArticleViewModel.swift */,
+				349F9FFA1F9F68C7009E1885 /* ChangePasswordViewModel.swift */,
 			);
 			path = "View Models";
 			sourceTree = "<group>";
@@ -110,6 +115,7 @@
 				34368AE11F9A6A3B001246D4 /* ArticleListTableViewController.swift */,
 				34368AE91F9A72E2001246D4 /* ArticleDetailsViewController.swift */,
 				34368AEF1F9A85B7001246D4 /* AddArticleViewController.swift */,
+				349F9FF81F9F67A0009E1885 /* ChangePasswordTableViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -239,9 +245,11 @@
 				34368AEA1F9A72E2001246D4 /* ArticleDetailsViewController.swift in Sources */,
 				34368AE51F9A6B9A001246D4 /* Webservice.swift in Sources */,
 				34368AF21F9A8792001246D4 /* AddArticleViewModel.swift in Sources */,
+				349F9FF91F9F67A0009E1885 /* ChangePasswordTableViewController.swift in Sources */,
 				34368AEC1F9A741C001246D4 /* ArticleDetailViewModel.swift in Sources */,
 				34368AEE1F9A828F001246D4 /* App.swift in Sources */,
 				34368AF81F9A9C44001246D4 /* BindingTextField.swift in Sources */,
+				349F9FFB1F9F68C7009E1885 /* ChangePasswordViewModel.swift in Sources */,
 				34368ACC1F9A69C3001246D4 /* AppDelegate.swift in Sources */,
 				34368AF51F9A8C29001246D4 /* Extensions.swift in Sources */,
 				34368AE81F9A6BEE001246D4 /* Article.swift in Sources */,
